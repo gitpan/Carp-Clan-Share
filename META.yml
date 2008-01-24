@@ -1,0 +1,21 @@
+---
+name: Carp-Clan-Share
+version: 0.01
+author:
+  - 'Robert Krimen <rkrimen@cpan.org>'
+abstract: Share your Carp::Clan settings with your whole Clan
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Carp::Clan: 0
+build_requires:
+  Test::More: 0
+provides:
+  Carp::Clan::Share:
+    file: lib/Carp/Clan/Share.pm
+    version: 0.01
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
