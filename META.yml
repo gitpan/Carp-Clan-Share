@@ -1,6 +1,6 @@
 ---
 name: Carp-Clan-Share
-version: 0.011
+version: 0.012
 author:
   - 'Robert Krimen <rkrimen@cpan.org>'
 abstract: Share your Carp::Clan settings with your whole Clan
@@ -14,7 +14,7 @@ build_requires:
 provides:
   Carp::Clan::Share:
     file: lib/Carp/Clan/Share.pm
-    version: 0.011
+    version: 0.012
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
